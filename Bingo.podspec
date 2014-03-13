@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Bingo"
-  s.version          = "0.0.9"
+  s.version          = "0.1.0"
   s.summary          = "Baidu InHouse Library"
   s.description      = "Bingo is a inhouse library current only avaiable for Baidu Inc, We may release it when it grow stable. Please be patient~"
   s.homepage         = "http://www.baidu.com/"
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
-  # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
   s.source_files = 'Classes/*.{h,m}'
