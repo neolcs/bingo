@@ -8,7 +8,6 @@
 
 #import "UIView+Frame.h"
 
-
 @implementation UIView(Frame)
 
 @dynamic width, height,posX, posY, centerPos, top, right, left;
